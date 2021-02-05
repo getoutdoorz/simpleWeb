@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<!-- <nav>
+		<a href="/">Home</a> |
+		<a href="/news">News</a> |
+		<a href="/contact/">Contact</a> |
+		<a href="/about/">About</a>
+	</nav> -->
+
+	<head>
+		<title>Outside for iOS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}" />
+	</head>
+	
+	<body>
+	{% include 'includes/_navbar.html' %}
+			
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+		<div id="main">
+
+			<!-- Header -->
+				<header id="header">
+					<h1>About</h1>
+				</header>
+
+				<pre style="font-size: 20px;">
+		Hi! We are Tony Murphy and Cade Curry -- two ADHD-ridden 
+		college students who have always shared an interest in 
+		thinking.  Through continual reflection on our own 
+		experiences, we collectively came to believe that the 
+		important things in life are often overlooked or put second 
+		to what is societally valued -- making money, receiving 
+		validation from others, etc. If there is one thing which we 
+		learned from our time at college, it is that individuals 
+		often feel the need to live their lives a certain way and 
+		succumb to the pressures of society.  By living their lives 
+		according to societally defined standards, either consciously 
+		or unconsciously, these individuals fail to recognize the true 
+		value of their existence and often fail to be happy.
+
+		Growing up in a world with seemingly limitless possibilities, 
+		it is important to recognize one’s time alive as a nonrenewable 
+		resource. A resource that shouldn’t be used towards seeking 
+		validation from others or sulking in boredom and envy. Instead, 
+		our time should be spent living--pursuing happiness with genuine 
+		people. 
+
+		When we first met, we had no idea that we would soon attend 
+		adjacent universities and become water polo teammates, 
+		door-to-door neighbors, and business partners.  To this 
+		day, we both strive to simplify life, encouraging people 
+		to spend their priceless time efficiently rather than 
+		letting time escape.  Through Outside, we attempt to 
+		provide people with a means to do, so that less time 
+		is wasted or spent in boredom.  
+				</pre>
+
+
+
+			<!-- Footer -->
+			{% include 'includes/_footer.html' %}
+			
+			<!-- Scripts -->
+				<script src="../static/assets/js/main.js"></script>
+				<script src="../static/assets/js/nav.js"></script>
+
+		</body>
+	</div>
+</html>
